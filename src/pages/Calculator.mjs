@@ -42,7 +42,7 @@ export default {
                                     <div class="col-12">
                                         <div class="mb-3">
                                             <label class="form-label required">Meeting duration</label>
-                                            <input type="number" class="form-control" name="duration" placeholder="Duration">
+                                            <input type="number" class="form-control" name="duration" placeholder="Duration" step="0.01">
                                         </div>
                                         <div class="mb-3">
                                             <label class="form-label required">Attendees</label>
