@@ -2,6 +2,8 @@
 
 A meeting calculator that provides tools to estimate the cost of a meeting based on the duration of the meeting and people within the meeting.
 
+[View Meeting Calculator tool](https://andrewbridge.github.io/meeting-calculator/)
+
 ## Development
 
 This tool is build step free, serve it in a browser with any HTTP server, but `npm run serve` is an included command.
