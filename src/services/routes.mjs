@@ -17,9 +17,10 @@ export const getRoute = (component) => '#' + (routeMap.get(component) || '/');
 
 export const activeHash = ref(window.location.hash.slice(1) || '/');
 export const activeRoute = ref(routes[activeHash.value]);
-if (attendees.value.length === 0) window.location.hash = '/configure';
 
 window.addEventListener('hashchange', () => {
     activeHash.value = window.location.hash.slice(1) || '/';
     activeRoute.value = routes[activeHash.value];
 });
+
+if (attendees.value.length === 0) window.location.hash = '/configure';
